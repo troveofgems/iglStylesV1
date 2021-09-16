@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- favicon -->
+    <link rel="icon" href="../img/favicon.ico">
+    <title>IGLeague</title>
+</head>
+<body>
+
+<div class="search-popup">
+    <svg class="cross-icon big close-button search-popup-close">
+        <use xlink:href="#svg-cross-big"></use>
+    </svg>
+
+    <form method="GET" class="search-popup-form">
+        <input type="text" id="search" class="input-line" name="search" placeholder="What are you looking for...?">
+    </form>
+    <p class="search-popup-text">Write what you are looking for and press enter to begin your search!</p>
+</div>
+
+<div class="header-wrap">
+    <div class="header grid-limit">
+        <div class="widget-selectables">
+            <div class="widget-options-wrap">
+            </div>
+        </div>
+
+        <div class="widget-selectables">
+            <div class="widget-options-wrap">
+                <div id="account-dropdown-trigger" class="current-option">
+                    <div class="current-option-value">
+                        <img class="widget-option-img user-avatar micro" src="../img/users/05.jpg" alt="avatar-01">
+                        <p class="widget-option-text">Highdra</p>
+                    </div>
+
+                    <svg class="arrow-icon">
+                        <use xlink:href="#svg-arrow"></use>
+                    </svg>
+                </div>
+
+                <div id="account-dropdown" class="widget-options short linkable">
+                    <div class="widget-option-heading blue">
+                        <p class="widget-option-text">Your Account</p>
+                    </div>
+                    <a href="" class="widget-option">
+                        <p class="widget-option-text">Account Settings</p>
+                    </a>
+                </div>
+            </div>
+
+            <a href="#" class="button tiny red log-button">
+                Logout
+                <div class="button-ornament">
+                    <svg class="arrow-icon">
+                        <use xlink:href="#svg-arrow"></use>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<nav class="navigation-wrap void stick-on-top">
+    <div class="navigation grid-limit">
+        <div class="logo">
+            <figure class="logo-img">
+                <img src="../img/brand/logo.png" alt="Logo">
+            </figure>
+
+            <div class="logo negative">
+                <div class="logo-text">
+                    <h2 class="logo-title">IGLeague</span></h2>
+                    <p class="logo-info">Gaming at its finest</p>
+                </div>
+            </div>
+
+            <div class="search-button search-popup-open">
+                <svg class="search-icon">
+                    <use xlink:href="#svg-search"></use>
+                </svg>
+            </div>
+
+            <ul class="main-menu">
+                <li class="main-menu-item">
+                    <a href="index.html" class="main-menu-item-link">Home</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">
+                        Leagues
+                        <svg class="arrow-icon">
+                            <use xlink:href="#svg-arrow"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item grid-limit">
+                            <div class="link-sections-wrap">
+                                <div class="link-sections">
+                                    <div class="link-section">
+                                        <div class="section-title-wrap red">
+                                            <h2 class="section-title small">Leagues</h2>
+                                            <div class="section-title-separator"></div>
+                                        </div>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">Valorant</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">Streetfighter</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">DBFZ</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">GG:Strive</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">MTGA</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">Tournaments</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">Solo Arena</a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="#" class="main-menu-item-link">
+                        Rules
+                        <svg class="arrow-icon">
+                            <use xlink:href="#svg-arrow"></use>
+                        </svg>
+                    </a>
+                    <ul class="submenu">
+                        <li class="submenu-item grid-limit">
+                            <div class="link-sections-wrap">
+                                <div class="link-sections">
+                                    <div class="link-section">
+                                        <div class="section-title-wrap red">
+                                            <h2 class="section-title small">Rules</h2>
+                                            <div class="section-title-separator"></div>
+                                        </div>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">Valorant Rules</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">Streetfighter Rules</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">DBFZ Rules</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">GG:Strive Rules</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">MTGA Rules</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">Solo Arena Rules</a>
+                                            </li>
+                                        </ul>
+
+                                        <ul class="link-list medium">
+                                            <li class="link-list-item">
+                                                <a href="">Global Policy</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">
+                        Shop
+                    </a>
+                </li>
+
+                <li class="main-menu-item">
+                    <a href="" class="main-menu-item-link">Forums</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="banner-slider-1" class="banner-slider" style="height: 500px;">
+    <div class="slider-items">
+        <div class="slider-item slider-item-1">
+            <div class="slider-item-wrap">
+                <div class="post-preview huge gaming-news">
+                    <a href="" class="post-preview-title">ADVERT BANNER</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner-slider-roster">
+        <div class="banner-slider-roster-item"></div>
+    </div>
+</div>
+
+<div class="layout-content-full grid-limit">
+    <!-- PROFILE HEADER -->
+    <div class="profile-header">
+        <!-- PROFILE USER -->
+        <div class="profile-user">
+            <!-- USER AVATAR -->
+            <img class="user-avatar big" src="../img/users/05.jpg" alt="user-05">
+            <!-- /USER AVATAR -->
+
+            <!-- PROFILE USER NAME -->
+            <p class="profile-user-name">Highdra</p>
+            <!-- /PROFILE USER NAME -->
+
+            <!-- PROFILE USER INFO -->
+            <p class="profile-user-info">2540 Posts</p>
+            <!-- /PROFILE USER INFO -->
+        </div>
+        <!-- /PROFILE USER -->
+
+        <!-- BUTTON -->
+        <a href="#" class="button small green">Add Friend</a>
+        <a href="#" class="button small yellow">Send Message</a>
+        <a href="#" class="button small red">Block User</a>
+        <!-- /BUTTON -->
+    </div>
+    <!-- /PROFILE HEADER -->
+
+    <!-- TAB WRAP -->
+    <div class="tab-wrap">
+        <ul id="tabs">
+
+            <li><a id="tab1">R6</a></li>
+            <li><a id="tab2">Valorant</a></li>
+            <li><a id="tab3">Madden</a></li>
+            <li><a id="tab4">MTGA</a></li>
+
+        </ul>
+        <div class="container white-bg" id="tab1C">
+            <div class="post-preview-showcase grid-4col">
+                <div class="grid-3col" style="margin-left:16em;">
+                    <h1 class="post-preview-title">Team<br />
+                        <a href="">link</a>
+                    </h1>
+                </div>
+                <div class="grid-3col" style="margin-left:16em;">
+                    <h1 class="post-preview-title">Division<br />
+                        <a href="">link</a>
+                    </h1>
+                </div>
+                <div class="grid-3col" style="margin-left:20em; float:right;">
+                    <h1 class="post-preview-title" style="padding-left: 4em;">
+                        <small>
+                            <a href="">History</a><br />
+                            <a href="">Pay Fee</a>
+                        </small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container white-bg" id="tab2C">
+            <div class="post-preview-showcase grid-4col">
+                <div class="grid-3col" style="margin-left:16em;">
+                    <h1 class="post-preview-title">Team<br />
+                        <a href="">link</a>
+                    </h1>
+                </div>
+                <div class="grid-3col" style="margin-left:16em;">
+                    <h1 class="post-preview-title">Division<br />
+                        <a href="">link</a>
+                    </h1>
+                </div>
+                <div class="grid-3col" style="margin-left:20em; float:right;">
+                    <h1 class="post-preview-title" style="padding-left: 4em;">
+                        <small>
+                            <a href="">History</a><br />
+                            <a href="">Pay Fee</a>
+                        </small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container white-bg" id="tab3C">
+            <div class="post-preview-showcase grid-4col">
+                <div class="grid-3col" style="margin-left:16em;">
+                    <h1 class="post-preview-title">Team<br />
+                        <a href="">link</a>
+                    </h1>
+                </div>
+                <div class="grid-3col" style="margin-left:16em;">
+                    <h1 class="post-preview-title">Division<br />
+                        <a href="">link</a>
+                    </h1>
+                </div>
+                <div class="grid-3col" style="margin-left:20em; float:right;">
+                    <h1 class="post-preview-title" style="padding-left: 4em;">
+                        <small>
+                            <a href="">History</a><br />
+                            <a href="">Pay Fee</a>
+                        </small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container white-bg" id="tab4C">
+            <div class="post-preview-showcase grid-4col">
+                <div class="grid-3col" style="margin-left:16em;">
+                    <h1 class="post-preview-title">Team<br />
+                        <a href="">link</a>
+                    </h1>
+                </div>
+                <div class="grid-3col" style="margin-left:16em;">
+                    <h1 class="post-preview-title">Division<br />
+                        <a href="">link</a>
+                    </h1>
+                </div>
+                <div class="grid-3col" style="margin-left:20em; float:right;">
+                    <h1 class="post-preview-title" style="padding-left: 4em;">
+                        <small>
+                            <a href="">History</a><br />
+                            <a href="">Pay Fee</a>
+                        </small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-body">
+            <div class="tab-item spaced">
+                <div class="layout-item gutter-big">
+                    <div class="widget-item">
+                        <div class="section-title-wrap no-space">
+                            <h2 class="section-title medium">Game IDs</h2>
+                            <div class="section-title-separator"></div>
+                        </div>
+
+                        <div class="widget-display multiple-items spaced-items medium">
+                            <div class="featured-stat-wrap medium">
+                                <p class="featured-stat-title">****************</p>
+
+                                <p class="featured-stat-text">Riot ID</p>
+                            </div>
+
+                            <div class="featured-stat-wrap medium">
+                                <p class="featured-stat-title">****************</p>
+
+                                <p class="featured-stat-text">Steam ID</p>
+                            </div>
+
+                            <div class="featured-stat-wrap medium">
+                                <p class="featured-stat-title">****************</p>
+
+                                <p class="featured-stat-text">MTG Arena ID</p>
+                            </div>
+
+                            <div class="featured-stat-wrap medium">
+                                <p class="featured-stat-title">****************</p>
+
+                                <p class="featured-stat-text">Battle.net ID</p>
+                            </div>
+
+                            <div class="featured-stat-wrap medium">
+                                <p class="featured-stat-title">****************</p>
+
+                                <p class="featured-stat-text">Epic Games ID</p>
+                            </div>
+                            <div class="featured-stat-wrap medium">
+                                <p class="featured-stat-title">****************</p>
+
+                                <p class="featured-stat-text">Ubisoft ID</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid1 full centered gutter-big">
+                        <div class="information-rows">
+                            <div class="information-row">
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Alias</p>
+                                </div>
+
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Highdra</p>
+                                </div>
+                            </div>
+
+                            <div class="information-row">
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Primary Game</p>
+                                </div>
+
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Valorant</p>
+                                </div>
+                            </div>
+
+                            <div class="information-row">
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Twitch</p>
+                                </div>
+
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text gold">twitch.tv/highdra</p>
+                                </div>
+                            </div>
+
+                            <div class="information-row">
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Youtube</p>
+                                </div>
+
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text gold">youtube.com/ne0ndijn</p>
+                                </div>
+                            </div>
+
+                            <div class="information-row">
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Twitter</p>
+                                </div>
+
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text gold">@igl.highdra</p>
+                                </div>
+                            </div>
+
+                            <div class="information-row">
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Instagram</p>
+                                </div>
+
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text gold">@igl.highdra</p>
+                                </div>
+                            </div>
+
+                            <div class="information-row">
+                                <div class="information-row-item">
+                                    <p class="information-row-item-text">Team Website</p>
+                                </div>
+
+                                <div class="information-row-item">
+                                    <a href="#" class="information-row-item-text gold">placeholdingwebsite.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-title-wrap gold" style="margin-top:5em;">
+                            <h2 class="section-title medium">About</h2>
+                            <div class="section-title-separator"></div>
+                        </div>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eum id incidunt minima molestias neque nihil sequi, temporibus! Accusantium consequuntur deserunt, doloribus est iusto nostrum nulla officiis quam. Quibusdam, ratione!
+                        </p>
+                    </div>
+
+                    <div class="grid2-2col full centered gutter-big">
+                        <div class="widget-item">
+                            <div class="section-title-wrap blue">
+                                <h2 class="section-title medium">Recent Posts</h2>
+                                <div class="section-title-separator"></div>
+                            </div>
+
+                            <div class="topic-link-items">
+                                <div class="topic-link-item">
+                                    <div class="topic-link-item-info">
+                                        <p class="topic-link-item-timestamp"> 12th September 2021</p>
+
+                                        <p class="topic-link-item-stat"><i class="icon-like like-icon"></i>208</p>
+                                    </div>
+                                    <a href="" class="topic-link-item-title">Give us your suggestions on how to improve the forum</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="widget-sidebar">
+                            <div class="section-title-wrap violet small-space">
+                                <h2 class="section-title medium">Upcoming Matches</h2>
+                                <div class="section-title-separator"></div>
+                            </div>
+
+                            <div class="widget-match-box">
+                                <div class="widget-title-wrap">
+                                    <h6 class="widget-title">Valorant Playoffs</h6>
+                                    <p class="widget-text">12/09/2021</p>
+                                </div>
+
+                                <div class="widget-team-vs v2">
+                                    <div class="widget-team-vs-item">
+                                        <div class="team-info-wrap medium">
+                                            <img class="team-logo" src="../img/users/05.jpg" alt="logo-01">
+
+                                            <div class="team-info">
+                                                <p class="team-name">Team Gory</p>
+
+                                                <p class="team-country">UK</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="match-stats">
+                                        <p class="match-score small">vs</p>
+                                        <p class="match-time">10:00PM</p>
+                                    </div>
+
+                                    <div class="widget-team-vs-item">
+                                        <div class="team-info-wrap medium inverted">
+                                            <img class="team-logo" src="../img/users/05.jpg" alt="logo-02">
+
+                                            <div class="team-info">
+                                                <p class="team-name">Team Highdra</p>
+
+                                                <p class="team-country">USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="countdown-text-wrap bordered">
+                                <p class="text-heading countdown-text-heading">Starts In:</p>
+                                <p id="ew1-cd-text" class="countdown-text"><span class="timer-text-days">11</span><span class="timer-text-hours">03</span><span class="timer-text-minutes">32</span><span class="timer-text-seconds">27</span></p>
+                                <p class="countdown-text-info">Days<span class="countdown-text-info-separator">:</span>Hours<span class="countdown-text-info-separator">:</span>Min<span class="countdown-text-info-separator">:</span>Secs</p>
+                                <div id="ew1-pgb-cd" class="progress-bar" style="width: 240px; height: 6px; position: relative;"><canvas width="240" height="6" style="position: absolute; top: 0px; left: 0px;"></canvas><canvas width="240" height="6" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-top-wrap">
+    <div class="footer-top grid-limit">
+        <div class="footer-top-brand">
+            <div class="logo negative">
+                <figure class="logo-img">
+                    <img src="../img/brand/logo.png" alt="Logo">
+                </figure>
+
+                <div class="logo-text">
+                    <h2 class="logo-title">IGLeague</h2>
+                    <p class="logo-info">Gaming at its finest</p>
+                </div>
+            </div>
+
+            <div class="sponsors-slider-wrap">
+                <div id="footer-sponsor-slider-controls" class="sponsors-slider-controls">
+                    <div class="sponsors-slider-control control-previous">
+                        <svg class="arrow-icon medium">
+                            <use xlink:href="#svg-arrow-medium"></use>
+                        </svg>
+                    </div>
+                    <div class="sponsors-slider-control control-next">
+                        <svg class="arrow-icon medium">
+                            <use xlink:href="#svg-arrow-medium"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div id="footer-sponsor-slider" class="sponsors-slider">
+                    <div class="sponsors-slider-items">
+                        <div class="sponsors-slider-item">
+                            <img class="sponsor-img" src="../img/sponsors/sponsor01.png" alt="sponsor01">
+                        </div>
+
+                        <div class="sponsors-slider-item">
+                            <img class="sponsor-img" src="../img/sponsors/sponsor02.png" alt="sponsor02">
+                        </div>
+
+                        <div class="sponsors-slider-item">
+                            <img class="sponsor-img" src="../img/sponsors/sponsor03.png" alt="sponsor03">
+                        </div>
+
+                        <div class="sponsors-slider-item">
+                            <img class="sponsor-img" src="../img/sponsors/sponsor04.png" alt="sponsor04">
+                        </div>
+
+                        <div class="sponsors-slider-item">
+                            <img class="sponsor-img" src="../img/sponsors/sponsor05.png" alt="sponsor05">
+                        </div>
+
+                        <div class="sponsors-slider-item">
+                            <img class="sponsor-img" src="../img/sponsors/sponsor06.png" alt="sponsor06">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="bubble-ornament fb">
+                    <svg class="facebook-icon">
+                        <use xlink:href="#svg-facebook"></use>
+                    </svg>
+                </a>
+
+                <a href="#" class="bubble-ornament twt">
+                    <svg class="twitter-icon">
+                        <use xlink:href="#svg-twitter"></use>
+                    </svg>
+                </a>
+
+                <a href="#" class="bubble-ornament insta">
+                    <svg class="instagram-icon">
+                        <use xlink:href="#svg-instagram"></use>
+                    </svg>
+                </a>
+
+                <a href="#" class="bubble-ornament twitch">
+                    <svg class="twitch-icon">
+                        <use xlink:href="#svg-twitch"></use>
+                    </svg>
+                </a>
+
+                <a href="#" class="bubble-ornament gplus">
+                    <svg class="gplus-icon">
+                        <use xlink:href="#svg-gplus"></use>
+                    </svg>
+                </a>
+
+                <a href="#" class="bubble-ornament youtube">
+                    <svg class="youtube-icon">
+                        <use xlink:href="#svg-youtube"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="line-separator negative"></div>
+    </div>
+</div>
+
+<div class="footer-bottom-wrap">
+    <div class="footer-bottom grid-limit">
+        <p class="footer-bottom-text"><a href="#">Disclaimer</a><span class="separator">|</span><a href="#">Terms Of Use</a><span class="separator">|</span><a href="#">Contact Us</a><span class="separator">|</span><a href="#">DMCA Policy</a></p>
+    </div>
+</div>
+
+<script src="../app.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+
+        $('#tabs li a:not(:first)').addClass('inactive');
+        $('.container').hide();
+        $('.container:first').show();
+
+        $('#tabs li a').click(function(){
+            var t = $(this).attr('id');
+            if($(this).hasClass('inactive')){ //this is the start of our condition
+                $('#tabs li a').addClass('inactive');
+                $(this).removeClass('inactive');
+
+                $('.container').hide();
+                $('#'+ t + 'C').fadeIn('slow');
+            }
+        });
+
+    });
+</script>
+</body>
+</html>
